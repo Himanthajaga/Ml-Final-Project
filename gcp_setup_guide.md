@@ -132,6 +132,9 @@ After deployment succeeds, take screenshots of:
 3. **Notebook output** — showing the successful prediction response
 4. **MLflow UI** — launch with `mlflow ui` and capture experiment runs
 
+
+
+
 ---
 
 ## Step 10: IMPORTANT — Delete the Endpoint After Testing!

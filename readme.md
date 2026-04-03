@@ -70,3 +70,63 @@ This covers all imports in your notebooks.
 ## 5. Common Changes to Apply
 - Update all placeholder values (`your-gcs-bucket-name`, `your-gcp-project-id`, `your-endpoint-id`) to your actual GCP details.
 - If your model expects different input features, update the sample `instance` in the test cell to match your data schema.
+
+---
+
+## 6. MLflow UI: Check Runs and Capture Screenshots
+
+### Step-by-Step: Launch MLflow UI
+
+1. Open terminal in your project directory:
+
+```powershell
+cd c:\Users\UsEr\IJSE\ML-Final-Project
+```
+
+2. Launch MLflow UI:
+
+```powershell
+mlflow ui
+```
+
+3. Open the dashboard URL shown in terminal (usually):
+
+```text
+http://127.0.0.1:5000
+```
+
+You should see experiment runs from `2_supervised_modeling.ipynb`, including parameters, metrics, and artifacts.
+
+### Capture Required Screenshots
+
+1. Screenshot 1 - Experiments Overview
+- Open the Experiments page in MLflow.
+- Capture a screenshot that shows multiple runs.
+
+2. Screenshot 2 - Individual Run Details
+- Open one run.
+- Capture parameters, metrics (accuracy/precision/recall/F1), and artifacts.
+
+3. Screenshot 3 - Comparison View
+- Select multiple runs.
+- Click Compare.
+- Capture a screenshot showing metric comparison.
+
+### Quick Commands
+
+| Action | Command |
+|---|---|
+| Start MLflow UI | `mlflow ui` |
+| Stop MLflow UI | `Ctrl + C` |
+| Run on another port | `mlflow ui --port 8080` |
+
+### Add Screenshots to Report
+
+Insert the screenshots in `AuraCart_Final_Report.md` under a section like:
+
+```markdown
+### MLflow Experiment Tracking
+![MLflow Experiments Overview](./screenshots/mlflow_overview.png)
+![MLflow Run Details](./screenshots/mlflow_run_details.png)
+![MLflow Compare Runs](./screenshots/mlflow_compare.png)
+```

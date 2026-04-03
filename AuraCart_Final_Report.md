@@ -79,7 +79,19 @@ The project uses the public "E-commerce Customer Order Behavior Dataset" (Huggin
   - Deployed as a live REST endpoint
   - Tested with sample JSON payloads
 - **MLflow:** Tracked all experiments and model versions
-- **Screenshots:** [Insert MLflow and Vertex AI screenshots here]
+- **Screenshots:** Added below
+
+### MLflow Experiment Tracking (Evidence)
+
+![MLflow Experiments Overview](./screenshots/mlflow_overview.png)
+![MLflow Run Details](./screenshots/mlflow_run_details.png)
+![MLflow Compare Runs](./screenshots/mlflow_compare.png)
+
+### Vertex AI Deployment (Evidence)
+
+![Vertex AI Model Registry](./screenshots/vertex_model_registry.png)
+![Vertex AI Endpoint](./screenshots/vertex_endpoint.png)
+![Vertex AI Prediction Output](./screenshots/vertex_prediction_output.png)
 
 ---
 
