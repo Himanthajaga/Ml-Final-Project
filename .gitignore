@@ -1,0 +1,7 @@
+
+# Ignore heavy artifacts
+notebooks/mlruns/
+artifacts/*.joblib
+artifacts/*.db
+notebooks/*.db
+
